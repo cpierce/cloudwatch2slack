@@ -1,5 +1,5 @@
 # cloudwatch2slack
-Cloudwatch to Slack Lambda Script
+AWS Cloudwatch to Slack = AWS Lambda Script
 
 ## Installation
 Create a lambda script with the index.js node file.  After that you'll want to create an SNS topic and link it to the Lambda Script.  From there it's simply a matter of configuring the webhook.  When loading sample data to test with be sure to note that cloudwatch data is a little unique and you should use the sample below.
